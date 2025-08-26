@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class AuthenticationHandlerFactory {
     public AuthenticationHandler getAuthenticationHandler(String type) {
-        if (Constant.TOKEN.equalsIgnoreCase(type)) {
+        if (Constant.BEARER_TOKEN.equalsIgnoreCase(type)) {
             return new TokenAuthenticationHandler();
         } else if (Constant.BASIC.equalsIgnoreCase(type)) {
             return new BasicAuthenticationHandler();
