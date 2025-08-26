@@ -16,7 +16,7 @@ public interface Constant {
     public static final String ALL = "ALL";
     public static final String TESTCASE = "testCase";
     public static final  String RESTASSURED = "restassured";
-    public static final String TOKEN = "BEARER_TOKEN";
+    public static final String BEARER_TOKEN = "BEARER_TOKEN";
     public static final String BASIC = "BASIC_AUTH";
     public static final String USERNAME = "username";
     public static final String PASSWORD = "password";
@@ -45,4 +45,5 @@ public interface Constant {
     public static final String DIGITS = "\\d+";
     public static final String ONE_OR_MORE_DIGITS = "\\d+\\.\\d+";
     public static final String PLACEHOLDER_VALIDATOR = "\\{\\{.*\\}\\}";
+    public static final String TOKEN = "token";
 }
